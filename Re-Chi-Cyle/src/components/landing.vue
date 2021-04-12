@@ -8,9 +8,9 @@
     </ul>
     <h2>Re.Chi.Cyle was made in an effort to:</h2>
     <div class='landing-module-container'>
-        <div class='landing-mod' id='find'><h3>Help residents find where to recycle certain materials</h3></div>
-        <div class='landing-mod' id='learn'><h3>Educate residents on what and how to recycle</h3></div>
-        <div class='landing-mod' id='action'><h3>Encourage residents to take part in influencing the structure and efficiency of recycling in the city</h3></div>
+        <div class='landing-mod' id='find'><h3>Help find where to recycle certain materials</h3> <img class='icon' alt='magnifying glass icon' src='../assets/lens.png'></div>
+        <div class='landing-mod' id='learn'><h3>Educate on what and how to recycle</h3><img class='icon' alt='light bulb icon' src='../assets/light.png'></div>
+        <div class='landing-mod' id='action'><h3>Encourage residents to influence the structure and efficiency of recycling citywide</h3><img class='icon' alt='magnifying glass icon' src='../assets/calender.png'></div>
     </div>
 </template>
 
@@ -29,11 +29,12 @@ a {
 }
 
 ul{
-    width: 80%;
+    width: 70%;
     text-align: center;
     margin: 0 auto;
     font-size: 14px;
     list-style-type: square;
+    line-height: 200%;
 }
 
 .landing-module-container{
@@ -45,7 +46,7 @@ ul{
 
 .landing-mod{
     width: 33%;
-    height: 100px;
+    height: auto;
     margin: 0px 5px 10px 5px;
 }
 
@@ -61,5 +62,7 @@ ul{
     border: 5px solid #6A040F;
 }
 
-
+h3 {
+    margin: 5px;
+}
 </style>
